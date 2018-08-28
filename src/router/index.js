@@ -1,3 +1,9 @@
+/**
+ * @file router
+ * @author cuiliangliang
+ * @since 2018/08/28
+ */
+
 import Vue from 'vue'
 import Router from 'vue-router'
 import routes from './router';

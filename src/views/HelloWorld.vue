@@ -36,7 +36,7 @@ export default {
 <style scoped lang="less">
 
 // 使用相对路径
-@import '../assets/common.less';
+@import '../assets/less/common.less';
 
 .hello {
   h1, h2 {
@@ -51,6 +51,4 @@ export default {
     background-color: skyblue;
   }
 }
-
-
 </style>

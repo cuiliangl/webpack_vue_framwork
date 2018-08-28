@@ -9,7 +9,6 @@ export default [
         path: '/',
         name: 'HelloWorld',
         // component: HelloWorld
-  
         component(resolve) {
           require(['@/views/HelloWorld'], resolve);
         },
