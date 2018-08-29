@@ -14,7 +14,7 @@ export default {
 
     // 两种方式都可以发送请求，$http为实例属性，api需要在每一个使用到的组件中单独导入
     // this.$http.getList();
-    let data = await api.getList();
+    // let data = await api.getList();
 
     // do something...
   }

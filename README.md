@@ -1,6 +1,6 @@
-# cuiliang_project
+# webpack + vue + vue-router + vuex + axios + less + px2rem
 
-> A Vue.js project
+> A Vue.js project Framwork
 
 ## Build Setup
 
@@ -17,5 +17,5 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+#### author: cuiliangliang
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

@@ -4,6 +4,7 @@
  * @since 2018/08/27
  */
 
+ import {api} from 'api';
  import {
      GET_USER_INFO
  } from '../mutations';
@@ -23,14 +24,7 @@ const mutations = {
 // 所有异步数据在这里获取
 const actions = {
     async getUserInfo({commit}, params) {
-        let data = await new Promise(resolve => {
-            setTimeout(() => {
-                resolve({
-                    name: 'Jack',
-                    age: 12
-                })
-            }, 2000)
-        });
+        let data = await api.getUserInfo(params);
 
         commit('GET_USER_INFO', data);
     }
