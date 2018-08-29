@@ -20,7 +20,7 @@ npm run build --report
 
 ### 项目架构
 
-
+```
 ├── api
 │   ├── apiList.js
 │   |── option.js
@@ -49,6 +49,8 @@ npm run build --report
 ├── App.vue
 ├── main.js
 └── ui.js 
+
+```
 
 ### 采用MVVM模式：
 
