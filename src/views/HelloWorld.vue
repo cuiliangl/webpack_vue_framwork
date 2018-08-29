@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <div class="less-test"></div>
+    <!-- <h1>{{ msg }}</h1> -->
+    <!-- <div class="less-test"></div> -->
   </div>
 </template>
 

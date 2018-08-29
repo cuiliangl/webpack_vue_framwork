@@ -8,7 +8,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import routes from './router';
 
-Vue.use(Router)
+Vue.use(Router);
 
 const router =  new Router({
   routes
@@ -16,10 +16,10 @@ const router =  new Router({
 
 
 // 全局导航守卫
-router.beforeEach((to, from ,next) => {
-  document.title = to.meta.title;
+router.beforeEach(({meta: {title = ''}}, from ,next) => {
+  document.title = title;
 
   next();
-})
+});
 
 export default router;
