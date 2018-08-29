@@ -1,17 +1,19 @@
 <template>
   <div class="hello">
-    <!-- <h1>{{ msg }}</h1> -->
+    <h1>{{ msg }}</h1>
     <!-- <div class="less-test"></div> -->
   </div>
 </template>
 
-<script>
+<script type="text/ecmascript-6">
 
 /**
  * @file helloWorld
  * @author cuiliangliang
  * @since 2018/08/27
  */
+
+'use strict'
 
 import {mapState} from 'vuex';
 
@@ -33,7 +35,7 @@ export default {
 }
 </script>
 
-<style scoped lang="less">
+<style scoped lang="less" rel="stylesheet/less">
 
 // 使用相对路径
 @import '../assets/less/common.less';
