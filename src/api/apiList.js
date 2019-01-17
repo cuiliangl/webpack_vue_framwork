@@ -4,7 +4,7 @@
  * @since 2018/08/29
  */
 
- import instance from './options';
+ import instance from './option';
 
  export default {
      getUserInfo(params) {
